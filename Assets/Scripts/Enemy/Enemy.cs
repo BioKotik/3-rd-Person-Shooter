@@ -10,12 +10,10 @@ public class Enemy : MonoBehaviour
     public float attackStrength = 10;
 
     private CharacterHealth playerHealth;
-    private Health health;
 
     internal void Init(Transform player)
     {
         playerHealth = player.GetComponent<CharacterHealth>();
-        health = GetComponent<Health>();
 
         movement.Init(player, Attack);
     }
@@ -24,6 +22,7 @@ public class Enemy : MonoBehaviour
     {
         movement.Death();
         agent.enabled = false;
+        GameUIManager.Instance.IncreaseKillCount();
     }
 
     private void Attack()
