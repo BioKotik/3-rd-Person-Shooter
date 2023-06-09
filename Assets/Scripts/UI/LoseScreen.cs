@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,6 +6,12 @@ public class LoseScreen : MonoBehaviour
 {
     public Button mainMenuButton;
     public Button restartButton;
+    public TMP_Text killCount;
+
+    public void SetKillCount(int killCount)
+    {
+        this.killCount.text = killCount.ToString();
+    }
 
     private void Awake()
     {
@@ -27,6 +34,5 @@ public class LoseScreen : MonoBehaviour
     {
         SceneTransition.Instance.SwitchToScene("GameScene");
         Debug.Log("Loading Game Scene");
-
     }
 }

@@ -133,6 +133,10 @@ public class EnemyMovement : MonoBehaviour
     private void OnDeath()
     {
         StopChasing();
+        if (attackCoroutine != null)
+        {
+            StopCoroutine(attackCoroutine);
+        }
         animator.enabled = false;
         this.enabled = false;
         capsuleCollider.enabled = false;

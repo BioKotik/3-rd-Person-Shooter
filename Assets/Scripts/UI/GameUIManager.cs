@@ -23,18 +23,14 @@ public class GameUIManager : MonoBehaviour
         loseScreen.gameObject.SetActive(false);
     }
 
-    public void UpdateKillCount(int value)
+    public void SetKillCount(int killCount)
     {
-        killCount.text = value.ToString();
+        this.killCount.text = killCount.ToString();
     }
 
-    public void IncreaseKillCount()
-    {
-        killCount.text = (Convert.ToInt32(killCount.text) + 1).ToString();
-    }
-
-    public void ShowLoseScreen()
+    public void ShowLoseScreen(int killCount)
     {
         loseScreen.gameObject.SetActive(true);
+        loseScreen.SetKillCount(killCount);
     }
 }

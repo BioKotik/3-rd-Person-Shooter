@@ -12,7 +12,7 @@ public class MenuScreen : MonoBehaviour
 
     private void PrepareUi()
     {
-        mainMenuWindow.Set(OnStart);
+        mainMenuWindow.Set(OnStart, OnExit);
 
         mainMenuWindow.gameObject.SetActive(true);
         loadingWindow.gameObject.SetActive(false);
@@ -24,5 +24,10 @@ public class MenuScreen : MonoBehaviour
         loadingWindow.gameObject.SetActive(true);
 
         SceneTransition.Instance.SwitchToScene("GameScene");
+    }
+
+    private void OnExit()
+    {
+        Application.Quit();
     }
 }

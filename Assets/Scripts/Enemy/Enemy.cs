@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     {
         movement.Death();
         agent.enabled = false;
-        GameUIManager.Instance.IncreaseKillCount();
+        GameManager.instance.OnEnemyDeath();
     }
 
     private void Attack()

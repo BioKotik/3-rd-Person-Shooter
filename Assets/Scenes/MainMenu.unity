@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 526411315}
   - component: {fileID: 526411314}
   m_Layer: 5
-  m_Name: Button_WalkieTalke
+  m_Name: Button_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -72, y: -83}
-  m_SizeDelta: {x: 77, y: 118}
+  m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526411314
 MonoBehaviour:
@@ -714,9 +714,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 64ede4718f69e41a9aecd882a1f9d504, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d9912fa2a9014dd5a372fe8de939760, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1343,7 +1343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1062767822
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1380,6 +1380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 2028380329}
+  exitButton: {fileID: 526411314}
 --- !u!1 &1094906359
 GameObject:
   m_ObjectHideFlags: 0
