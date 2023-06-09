@@ -140,7 +140,7 @@ public class EnemyMovement : MonoBehaviour
 
     private IEnumerator Attack()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.25f);
 
         if (distanceToPlayer < attackRange)
         {

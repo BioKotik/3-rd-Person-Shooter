@@ -14584,6 +14584,7 @@ GameObject:
   - component: {fileID: 1262762992}
   - component: {fileID: 1262762991}
   - component: {fileID: 1262762993}
+  - component: {fileID: 1262762994}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -14638,6 +14639,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0022b4da80773b04197f2b07d09e5eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1262762994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262762990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f7e9e36b9c7a248900ca825db6b0c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioManagerModule: {fileID: 11400000, guid: b5f62947ec66bfc48a47d5735a631c1a, type: 2}
 --- !u!1 &1263889954
 GameObject:
   m_ObjectHideFlags: 0
@@ -23276,6 +23290,10 @@ PrefabInstance:
       propertyPath: m_OnDeathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1262762993}
+    - target: {fileID: 4980174852881207028, guid: 39d3d2d7e02370f47822231da5ced92c, type: 3}
+      propertyPath: m_OnDeathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnGameEnd
+      objectReference: {fileID: 0}
     - target: {fileID: 4980174852881568299, guid: 39d3d2d7e02370f47822231da5ced92c, type: 3}
       propertyPath: m_Name
       value: Player

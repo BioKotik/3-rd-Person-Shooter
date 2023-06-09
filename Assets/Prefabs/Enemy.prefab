@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7751988198155685183}
   - component: {fileID: 3254955200181528742}
   - component: {fileID: 2106321041729765310}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: LowerLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 263764595064467294}
   - component: {fileID: 1074112294648095599}
   - component: {fileID: 2352892861741785666}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: LowerLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5581108343342125093}
   - component: {fileID: 1509564099}
-  m_Layer: 26
+  m_Layer: 6
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 8097583021970669220}
   - component: {fileID: 672060789130060408}
   - component: {fileID: 7540463307120817731}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 5581108343342125135}
   - component: {fileID: 5948093318028317070}
   - component: {fileID: 1024182612853484420}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5581108343342125157}
   - component: {fileID: 5115812533945323337}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Ball_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5581108343342125159}
   - component: {fileID: 4648214966960199876}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Ball_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1157,7 +1157,7 @@ GameObject:
   - component: {fileID: 8395374943703753147}
   - component: {fileID: 1553900927157486121}
   - component: {fileID: 7877723877235972232}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Clavicle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1392,6 +1392,32 @@ MonoBehaviour:
   m_HealthAttributeName: Health
   m_ShieldAttributeName: 
   m_Hitboxes:
+  - m_Collider: {fileID: 5948093318028317070}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 8376135452912042616}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 8395374943703753147}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 5532547148970247146}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 2409262897987402072}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 3573386576270963654}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 8097583021970669220}
+    m_DamageMultiplier: 5
+  - m_Collider: {fileID: 3033047163074000971}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 263764595064467294}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 4648214966960199876}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 4365849393426770498}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 7751988198155685183}
+    m_DamageMultiplier: 1
+  - m_Collider: {fileID: 5115812533945323337}
+    m_DamageMultiplier: 1
   - m_Collider: {fileID: 1509564099}
     m_DamageMultiplier: 1
   m_MaxHitboxCollisionCount: 10
@@ -1472,7 +1498,7 @@ GameObject:
   - component: {fileID: 5532547148970247146}
   - component: {fileID: 5385647824857545966}
   - component: {fileID: 9023135604294317528}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Elbow_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1583,7 +1609,7 @@ GameObject:
   - component: {fileID: 2409262897987402072}
   - component: {fileID: 8998288068839434147}
   - component: {fileID: 262509081073527883}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Clavicle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1725,7 +1751,7 @@ GameObject:
   - component: {fileID: 3573386576270963654}
   - component: {fileID: 3760680850072779895}
   - component: {fileID: 7993202013894236537}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Elbow_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2027,7 +2053,7 @@ GameObject:
   - component: {fileID: 4365849393426770498}
   - component: {fileID: 5155677691631429322}
   - component: {fileID: 7088989968774122597}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: UpperLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2273,7 +2299,7 @@ GameObject:
   - component: {fileID: 8376135452912042616}
   - component: {fileID: 7955621506620605086}
   - component: {fileID: 700566473090308403}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: Spine_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2670,7 +2696,7 @@ GameObject:
   - component: {fileID: 3033047163074000971}
   - component: {fileID: 8518052456588569791}
   - component: {fileID: 3709146793205048607}
-  m_Layer: 6
+  m_Layer: 26
   m_Name: UpperLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
