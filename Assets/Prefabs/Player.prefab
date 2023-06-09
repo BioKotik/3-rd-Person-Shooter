@@ -4760,7 +4760,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6295,7 +6295,7 @@ MonoBehaviour:
   m_MaxHitscanCollisionCount: 15
   m_ImpactLayers:
     serializedVersion: 2
-    m_Bits: 3422552057
+    m_Bits: 3489660857
   m_HitscanTriggerInteraction: 1
   m_DamageProcessor: {fileID: 0}
   m_DamageAmount: 10
